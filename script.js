@@ -5,7 +5,7 @@ btn.addEventListener("click", () => {
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
 
-    if (email === "Salmane" && password === "123") {
+    if (email === "User" && password === "123") {
         window.location.href = "https://voidl0op.github.io/Ticketing/Ticket/ticket.html";
     } else {
         btn.classList.add("btn-error");
